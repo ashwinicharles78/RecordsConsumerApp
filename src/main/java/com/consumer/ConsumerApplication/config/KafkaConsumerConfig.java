@@ -25,7 +25,7 @@ public class KafkaConsumerConfig {
                 StringDeserializer.class);
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG,
                 JsonDeserializer.class);
-        props.put(JsonDeserializer.TRUSTED_PACKAGES, "com.records.Records.model");
+        props.put(JsonDeserializer.TRUSTED_PACKAGES, "com.consumer.ConsumerApplication.dto");
         return props;
     }
 

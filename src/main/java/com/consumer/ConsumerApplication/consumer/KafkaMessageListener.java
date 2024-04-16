@@ -1,6 +1,6 @@
 package com.consumer.ConsumerApplication.consumer;
 
-import com.records.Records.model.KafkaUserData;
+import com.consumer.ConsumerApplication.dto.KafkaUserData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
