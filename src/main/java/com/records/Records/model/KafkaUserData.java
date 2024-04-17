@@ -1,9 +1,8 @@
-package com.consumer.ConsumerApplication.dto;
+package com.records.Records.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.consumer.ConsumerApplication.dto.Roles;
 
 import java.util.List;
 

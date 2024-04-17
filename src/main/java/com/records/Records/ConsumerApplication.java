@@ -1,4 +1,4 @@
-package com.consumer.ConsumerApplication;
+package com.records.Records;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

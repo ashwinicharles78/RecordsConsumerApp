@@ -1,4 +1,4 @@
-package com.consumer.ConsumerApplication;
+package com.records.Records;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

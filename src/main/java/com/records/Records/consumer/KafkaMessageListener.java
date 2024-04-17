@@ -1,6 +1,6 @@
-package com.consumer.ConsumerApplication.consumer;
+package com.records.Records.consumer;
 
-import com.consumer.ConsumerApplication.dto.KafkaUserData;
+import com.records.Records.model.KafkaUserData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class KafkaMessageListener {
     Logger log = LoggerFactory.getLogger(KafkaMessageListener.class);
 
-    @KafkaListener(topics = "test",groupId = "consumer-group")
+    @KafkaListener(topics = "test",groupId = "consumer-group", containerFactory = "consumerListener")
     public void consumeEvents(KafkaUserData userData) {
         log.info("consumer consume the events {} ", userData.getEmail());
     }

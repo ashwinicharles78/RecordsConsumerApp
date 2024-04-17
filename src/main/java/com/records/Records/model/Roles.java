@@ -1,4 +1,4 @@
-package com.consumer.ConsumerApplication.dto;
+package com.records.Records.model;
 
 public enum Roles {
     ROLE_WRITER,
